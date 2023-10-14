@@ -1,152 +1,168 @@
 {
-    "name": "ariesterV3",
-    "description": "Same theme but with background! - Riester",
+    "name": "ariester",
+    "description": "a theme based around my homescreen layout",
     "authors": [
         {
-            "name": "@riesters",
+            "name": "riesters",
             "id": "775986119232847902"
         }
     ],
     "semanticColors": {
-      "HEADER_PRIMARY": [
-          "#D572D0"
-      ],
-      "HEADER_SECONDARY": [
-          "#D572D0"
-      ],
-      "TEXT_NORMAL": [
-          "#FFE8FE"
-      ],
-      "TEXT_MUTED": [
-          "#5E5E5E"
-      ],
-      "TEXT_LINK": [
-          "#EE8EE9"
-      ],
-      "INTERACTIVE_NORMAL": [
-          "#C599C3"
-      ],
-      "INTERACTIVE_HOVER": [
-          "#B988BC"
-      ],
-      "INTERACTIVE_ACTIVE": [
-          "#FDC5FA"
-      ],
-      "INTERACTIVE_MUTED": [
-          "#5F5160" 
-      ],
-      "BACKGROUND_PRIMARY": [
-          "#282828"
-      ],
-      "BACKGROUND_SECONDARY": [
-          "#222222"
-      ],
-      "BACKGROUND_SECONDARY_ALT": [
-          "#222222"
-      ],
-      "BACKGROUND_TERTIARY": [
-          "#282828"
-      ],
-      "BACKGROUND_ACCENT": [
-          "#704A6E"
-      ],
-      "BACKGROUND_FLOATING": [
-          "#222222"
-      ],
-      "BACKGROUND_MOBILE_PRIMARY": [
-          "#222222"
-      ],
-      "BACKGROUND_MOBILE_SECONDARY": [
-          "#222222"
-      ],
-      "BACKGROUND_NESTED_FLOATING": [
-          "#222222"
-      ],
-     
-      "BACKGROUND_MESSAGE_HOVER": [
-          "#292929"
-      ],
-      "BACKGROUND_MODIFIER_HOVER": [
-          "#292929"
-      ],
-      "BACKGROUND_MODIFIER_ACTIVE": [
-          "#7D427A"
-      ],
-      "BACKGROUND_MODIFIER_SELECTED": [
-          "#7D427A"
-      ],
-      "BACKGROUND_MODIFIER_ACCENT": [
-          "#484848"
-      ],
-      "SCROLLBAR_THIN_THUMB": [
-          "#26273b"
-      ],
-      "SCROLLBAR_THIN_TRACK": [
-          "transparent"
-      ],
-      "SCROLLBAR_AUTO_THUMB": [
-          "#DAB3D8"
-      ],
-      "SCROLLBAR_AUTO_TRACK": [
-          "#DAB3D8"
-      ],
-      "CHANNELTEXTAREA_BACKGROUND": [
-          "#242424"
-      ],
-      "CHANNELS_DEFAULT": [
-          "#9E769C"
-      ],
-      "TEXT_DANGER": [
-          "#FC0E61"
-      ],
-      "KEYBOARD": [
-          "#282828"
-      ],
-      "CHANNEL_ICON": [
-          "#C6B3C5"
-      ],
-      "CHAT_BACKGROUND": [
-          "#282828"
-      ],
-      "SPOILER_HIDDEN_BACKGROUND": [
-        "#4B4B4B"
-      ],
-      "SPOILER_REVEALED_BACKGROUND": [
-        "#5E5E5E"
-      ]
-  },
-  "rawColors": {
-      "PRIMARY_100": "#FDD8FB",
-      "PRIMARY_200": "#947592",
-      "PRIMARY_300": "#D572D0",
-      "PRIMARY_360": "#C272F0",
-      "PRIMARY_400": "#7114EE",
-      "PRIMARY_500": "#5F3A70",
-      "PRIMARY_600": "#282828",
-      "PRIMARY_630": "#2F2F2F",
-      "PRIMARY_660": "#2F2F2F",
-      "PRIMARY_700": "#282828",
-      "PRIMARY_800": "#282828",
-  
-      "BRAND_260": "#936195",
-      "BRAND_360": "#D096CF",
-      "BRAND_500": "#936195",
-      "BRAND_560": "#D096CF",
-      "WHITE_500": "#F0C4FF",
-      "YELLOW_300": "#B569E0",
-      "GREEN_360": "#B569E0",
-      "RED_400": "#FC0E61"
-},
-    "spec": 2,
-    "background": {
-      "blur": 0,
-      "url": "https://raw.githubusercontent.com/enzicakita/Txt/main/ezgif-2-5f41e94532.gif",
-      "alpha": 0.9,
-      "color": "#282828"
-  
+        "HEADER_PRIMARY": [
+            "#FBFBFB",
+            "#060607"
+        ],
+        "HEADER_SECONDARY": [
+            "#979BF6",
+            "#4f5660"
+        ],
+        "TEXT_NORMAL": [
+            "#FBFBFB",
+            "#2e3338"
+        ],
+        "TEXT_MUTED": [
+            "#979BF6",
+            "#747f8d"
+        ],
+        "INTERACTIVE_NORMAL": [
+            "#9fa1cf",
+            "#4f5660"
+        ],
+        "INTERACTIVE_HOVER": [
+            "#dcddde",
+            "#2e3338"
+        ],
+        "INTERACTIVE_ACTIVE": [
+            "#979BF6",
+            "#060607"
+        ],
+        "INTERACTIVE_MUTED": [
+            "#697eab",
+            "#c7ccd1"
+        ],
+        "BACKGROUND_PRIMARY": [
+            "#202029",
+            "#1e1e2e"
+        ],
+        "BACKGROUND_SECONDARY": [
+            "#171717",
+            "#f2f3f5"
+        ],
+        "BACKGROUND_SECONDARY_ALT": [
+            "#171717",
+            "#ebedef"
+        ],
+        "BACKGROUND_TERTIARY": [
+            "#121212",
+            "#e3e5e8"
+        ],
+        "BACKGROUND_ACCENT": [
+            "#979BF6",
+            "#747f8d"
+        ],
+        "BACKGROUND_FLOATING": [
+            "#171717",
+            "#FFFFFF"
+        ],
+        "BACKGROUND_MOBILE_PRIMARY": [
+            "#202029",
+            "#f8f9f9"
+        ],
+        "BACKGROUND_MOBILE_SECONDARY": [
+            "#171717",
+            "#ffffff"
+        ],
+        "BACKGROUND_NESTED_FLOATING": [
+            "#202029",
+            "#ffffff"
+        ],
+        "BACKGROUND_MESSAGE_HOVER": [
+            "rgba(255, 255, 255, 0.02)",
+            "#FFFFFF"
+        ],
+        "BACKGROUND_MODIFIER_HOVER": [
+            "rgba(255, 255, 255, 0.02)",
+            "hsla(214, 9.9%, 50.4%, 0.08)"
+        ],
+        "BACKGROUND_MODIFIER_ACTIVE": [
+            "rgba(255, 255, 255, 0.03)",
+            "rgba(139, 116, 139, 0.16)"
+        ],
+        "BACKGROUND_MODIFIER_SELECTED": [
+            "#1e1e2e",
+            "hsla(214, 9.9%, 50.4%, 0.24)"
+        ],
+        "BACKGROUND_MODIFIER_ACCENT": [
+            "#14141f",
+            "hsla(240, 7.7%, 2.5%, 0.08)"
+        ],
+        "SCROLLBAR_THIN_THUMB": [
+            "#45475a",
+            "hsla(217, 7.6%, 33.5%, 0.3)"
+        ],
+        "SCROLLBAR_THIN_TRACK": [
+            "171717",
+            "#45475a"
+        ],
+        "SCROLLBAR_AUTO_THUMB": [
+            "#979BF6",
+            "#cccccc"
+        ], 
+        "SPOILER_HIDDEN_BACKGROUND": [ 
+            "#171717", 
+            "#ffffff"
+        ],
+        "SCROLLBAR_AUTO_TRACK": [
+            "#171717",
+            "#45475a"
+        ],
+        "CHANNELTEXTAREA_BACKGROUND": [
+            "#171717",
+            "#ebedef"
+        ],
+        "CHANNELS_DEFAULT": [
+            "#6a6ea1",
+            "#6a6ea1"
+        ],
+        "CHANNEL_ICON": [
+            "#6a6ea1",
+            "#6a6ea1"
+        ],
+        "TEXT_LINK": [
+            "#979BF6",
+            "#000000"
+        ],
+        "KEYBOARD": [
+            "#202029",
+            "#FFFFFF"
+        ],
+        "CHAT_BACKGROUND": [
+            "#202029",
+            "#ffffff"
+        ]
+    }, 
+    "rawColors": { 
+        "PRIMARY_600": "#171717", 
+        "PRIMARY_630": "#171717", 
+        "PRIMARY_660": "#171717", 
+        "PRIMARY_700": "#171717", 
+        "PRIMARY_800": "#171717", 
+        "BRAND_260": "#B2BAE2", 
+        "BRAND_360": "#979BF6", 
+        "BRAND_500": "#979BF6", 
+        "BRAND_560": "#979BF6",
+        "YELLOW_300": "#B2BAE2", 
+        "RED_400": "#979BF6"
     },
-    "plus":{
-        "version":"0",
-        "iconpack":"rosiecord-plumpy"
-    }
+    "background": {
+        "blur": 0.1,
+        "url": [
+            "http://127.0.0.1:8081/exurb1a%20-%20Dear%20Nia.mp4",
+            "https://127.0.0.1:8081/1.gif",
+            "http://127.0.0.1:8081/exurb1a%20-%20Big%20Oxygen.mp4"
+            // Add more URLs as needed
+        ],
+        "alpha": 1.0
+    },
+    "spec": 2
 }
